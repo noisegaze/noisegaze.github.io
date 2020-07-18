@@ -1,11 +1,11 @@
 # Site settings
-author: Benjamin Stephanus
-title: 
+author: Benjamin James Stephanus
+title: Let No Midlife Crisis Go Wasted
 header-img: img/home-bg.png
 email: ben.stephanus@gmail.com
-copyright_name: Benjamin Stephanus
+copyright_name: Benjamin James Stephanus
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why I'm interested In Web
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  noisegaze
