@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+header {
+    text-align: center;
+    font-size: 2em;
+}
+
+.square {
+    width: 25%;
+    background-color: grey;
+    border: 1% black solid;
+    float: right;
+    margin-right: 5%;
+    margin-top:5%;
+} 
+
+
+
+.par {
+    padding: 2%;
+    margin-top: 2px;
+}
+
+.sushi {
+    margin-left:10%;
+}
+h2 {
+   margin:0;
+   font-size: 1.5em;
+   line-height: 2em;
+   line-height: 150%;
+}
+
+
+.subhead {
+    height: 35px;
+    width: 100px;
+   position:absolute;left:auto;bottom:auto;top:0;right:0;
+    border: 1px black solid;
+    text-align: center;
+    
+}
+
+.subcont {
+    width:100%;
+}
+
+  
+.subchick {
+    background-color: cadetblue;
+}
+
+.subbeef {
+    background-color: salmon;
+}
+
+.subsushi {
+    background-color: seagreen;
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+#carne {
+    float:left;
+    width:40%;
+    margin-left: 30px;
+    /* position: absolute;top: 900%; left:7.5%; */
+}
+#pollo {
+    width:40%;
+    float:left;
+    margin-left: 40px;
+    /*position: absolute; top: 1%; right:1%;*/
+}
+#pesce {
+    width: 93%;
+    margin-bottom:5%;
+}
+/* #pesce { */
+    /* width:90%; */
+    /* float:none; */
+    /*position:absolute;top:1%;left:1%;*/
+    /* margin-top: 10px; */
+
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .square {
+        float:none;
+        width:90%;
+    }
+
+    #pesce{
+        margin-left: 0;
+    }
+
+    
+   /* #carne, #pollo {
+        float:none;
+        width:90%;
+    }
+    #pesce {
+        float:none;
+        width:90%;
+        position:absolute;left:0%;
+    }*/
+}
